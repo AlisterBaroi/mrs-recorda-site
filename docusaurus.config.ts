@@ -42,8 +42,8 @@ const config: Config = {
 
           // showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/alisterbaroi/alisterbaroi.github.io/tree/main/',
+          // editUrl:
+          // 'https://github.com/alisterbaroi/alisterbaroi.github.io/tree/main/',
 
           remarkPlugins: [
             remarkMath,
@@ -66,8 +66,8 @@ const config: Config = {
 
           // showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/alisterbaroi/alisterbaroi.github.io/tree/main/',
+          // editUrl:
+          //   'https://github.com/alisterbaroi/alisterbaroi.github.io/tree/main/',
 
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
