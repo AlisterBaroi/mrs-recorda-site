@@ -12,10 +12,10 @@ export function MDTitle({ title, description }) {
             {'🎉\xa0'}
             <Link className={styles.topBannerTitleText} to="/">
               <Translate id="home.topbanner.title">
-                {"Hello,\xa0I'm\xa0lailai"}
+                {"Mrs Recorda"}
               </Translate>
             </Link>
-            {'\xa0🥳'}
+            {/* {'\xa0🥳'} */}
           </>
         ) : (
           title

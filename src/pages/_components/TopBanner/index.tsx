@@ -7,17 +7,17 @@ export default function TopBanner() {
   return (
     <div className={styles.topBanner}>
       <div className={styles.topBannerTitle}>
-        {/* {'🎉'} */}
-        {/* <Link to="/about" className={styles.topBannerTitleText}>
+        {'🎉'}
+        <Link to="/about" className={styles.topBannerTitleText}>
           <Translate id="home.topbanner.title">
             {"Mrs Recorda"}
           </Translate>
-        </Link> */}
-        <p className={styles.topBannerTitleText}>
+        </Link>
+        {/* <p className={styles.topBannerTitleText}>
           <Translate id="home.topbanner.title">
             {"Mrs Recorda"}
           </Translate>
-        </p>
+        </p> */}
         {/* {'🥳'} */}
       </div>
     </div>

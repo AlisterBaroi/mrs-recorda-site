@@ -52,12 +52,13 @@ export default function Community() {
         <SectionHeader
           title={translate({
             id: 'home.community.title',
-            message: 'My Community',
+            message: 'Our Community',
           })}
           description={translate({
             id: 'home.community.description',
             message:
-              'Building connections in the digital world, sharing knowledge and experiences, and growing together.',
+              // 'Building connections in the digital world, sharing knowledge and experiences, and growing together.',
+              'Be part of the community. Join the conversation, and connect with us on various platforms.',
           })}
         />
 

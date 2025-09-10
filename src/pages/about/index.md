@@ -43,15 +43,15 @@ If that is also taken, I convert the digits to hexadecimal **0x394**, forming **
 
 :::
 
-## # My Skills
+## Made With
+<Skills /> 
+<br/>  
+<br/>  
 
-<Skills />
+<!-- ## # My Devices -->
+<!-- <Devices /> -->
 
-## # My Devices
-
-<Devices />
-
-## # My Community
+## Our Community
 
 <Community />
 

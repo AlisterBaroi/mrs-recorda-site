@@ -22,11 +22,13 @@ export default function GridLayout({
 export const GridConfigs = {
   // 社区网格：2-3-4-6-8列
   community:
-    '--tw-grid-cols-2 sm:--tw-grid-cols-3 md:--tw-grid-cols-4 lg:--tw-grid-cols-6 xl:--tw-grid-cols-8',
+    // '--tw-grid-cols-2 sm:--tw-grid-cols-3 md:--tw-grid-cols-4 lg:--tw-grid-cols-6 xl:--tw-grid-cols-8',
+    '--tw-grid-cols-2 sm:--tw-grid-cols-2 md:--tw-grid-cols-4 lg:--tw-grid-cols-4 xl:--tw-grid-cols-4',
 
   // 技能网格：2-3-4-6列
   skills:
-    '--tw-grid-cols-2 sm:--tw-grid-cols-3 md:--tw-grid-cols-4 lg:--tw-grid-cols-6',
+    // '--tw-grid-cols-2 sm:--tw-grid-cols-3 md:--tw-grid-cols-4 lg:--tw-grid-cols-6',
+    '--tw-grid-cols-2 sm:--tw-grid-cols-2 md:--tw-grid-cols-4 lg:--tw-grid-cols-4',
 
   downloads:
     '--tw-grid-cols-1 sm:--tw-grid-cols-1 md:--tw-grid-cols-4 lg:--tw-grid-cols-6',

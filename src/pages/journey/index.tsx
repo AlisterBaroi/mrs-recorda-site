@@ -8,23 +8,23 @@ import {
   PageFooter,
 } from '@site/src/components/laikit/page';
 import DataCard from '@site/src/components/laikit/widget/DataCard';
-import TravelTimeline from '@site/src/pages/travel/_components/Timeline';
-import TravelMap from '@site/src/pages/travel/_components/Map';
+import TravelTimeline from '@site/src/pages/journey/_components/Timeline';
+import TravelMap from '@site/src/pages/journey/_components/Map';
 import { translate } from '@docusaurus/Translate';
 import { TRAVEL_LIST } from '@site/src/data/travel';
-import { iso2FromText } from '@site/src/pages/travel/_components/Map';
+import { iso2FromText } from '@site/src/pages/journey/_components/Map';
 
 const TITLE = translate({
   id: 'pages.travel.title',
-  message: 'Travel',
+  message: 'Journey',
+});
+const MODIFICATION = translate({
+  id: 'pages.travel.modification',
+  message: '<b>Our</b> Journey',
 });
 const DESCRIPTION = translate({
   id: 'pages.travel.description',
   message: 'Every trip brings new perspectives and insights',
-});
-const MODIFICATION = translate({
-  id: 'pages.travel.modification',
-  message: '<b>Travel</b> Record',
 });
 const FOOTER = translate({
   id: 'pages.travel.footer',
