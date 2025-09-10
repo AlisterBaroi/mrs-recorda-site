@@ -49,7 +49,7 @@ export default function HeroBanner() {
           />
         </Heading>
         {/* <br /> */}
-        <p className={styles.subHeadding}>Free & Open-Source screen recorder. Build for simplicty & focus on screen activity.</p>
+        <p className={styles.subHeadding}>Free & Open-Source screen recorder. Build for simplicity & focusing on screen activity.</p>
         {/* <p className={styles.subHeadding}>Build for simplicity, letting you focus on what matters on the screen.</p> */}
         <p className={styles.subHeadding2}>Download now on:</p>
         <Downloads />

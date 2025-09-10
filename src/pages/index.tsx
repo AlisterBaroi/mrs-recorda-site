@@ -29,13 +29,13 @@ export default function Home(): ReactNode {
         <TopBanner />
         <HeroBanner />
         <div className={styles.section}>
-          <Docs />
+          <Exploration />
           <Blog />
+          {/* <Docs /> */}
           <Countdown />
           <Project />
           <Skills />
-          <Exploration />
-          <NeuralNetwork />
+          {/* <NeuralNetwork /> */}
           <Quotes />
           <Community />
         </div>
