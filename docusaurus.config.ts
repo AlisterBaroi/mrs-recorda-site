@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 const defaultLocale = 'en';
 
 const config: Config = {
-  title: "lailai's Home",
+  title: "Mrs Recorda",
   tagline:
     "lailai's personal website for sharing technical notes, project experience, and learning insights.",
   favicon: 'img/favicon.ico',
@@ -108,9 +108,9 @@ const config: Config = {
     },
     navbar: {
       hideOnScroll: true,
-      title: "lailai's Home",
+      title: "Mrs Recorda",
       logo: {
-        alt: "lailai's Logo",
+        alt: "Mrs Recorda Logo",
         src: 'img/logo.svg',
       },
       items: [

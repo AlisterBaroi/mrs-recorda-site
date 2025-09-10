@@ -7,6 +7,7 @@ import styles from './styles.module.css';
 
 import TopBanner from './_components/TopBanner';
 import HeroBanner from './_components/HeroBanner';
+// import Downloads from './_components/Downloads';
 
 import Docs from './_components/Docs';
 import Blog from './_components/Blog';

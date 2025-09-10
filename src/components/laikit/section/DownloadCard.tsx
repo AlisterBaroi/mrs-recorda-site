@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 
-interface BaseCardProps {
+interface DownloadCardProps {
   children: React.ReactNode;
   href?: string;
   className?: string;
@@ -14,12 +14,11 @@ interface BaseCardProps {
 const CARD_BASE_STYLES = [
   '--tw-relative --tw-overflow-hidden --tw-cursor-pointer --tw-w-full --tw-h-full --tw-flex --tw-flex-col',
   '--tw-bg-white dark:--tw-bg-neutral-900',
-  'hover:--tw-bg-gray-50 dark:hover:--tw-bg-neutral-800/50',
-  // 'hover:--tw-bg-gray-500 --tw-text-blue-200 dark:hover:--tw-bg-neutral-800/90',
+  // 'hover:--tw-bg-gray-50 dark:hover:--tw-bg-neutral-800/50',
+  'hover:--tw-bg-gray-300 dark:hover:--tw-bg-neutral-700/90',
   '--tw-rounded-2xl --tw-transition-all --tw-duration-200 --tw-ease-out',
   '--tw-shadow-sm hover:--tw-shadow-lg dark:--tw-shadow-none',
   '--tw-border --tw-border-gray-200 dark:--tw-border-neutral-700',
-  '--tw-border --tw-border-gray-200 hover:dark:--tw-border-gray-900',
   'hover:--tw-border-gray-300 dark:hover:--tw-border-neutral-600',
 ].join(' ');
 
@@ -53,14 +52,14 @@ function CardContent({
   );
 }
 
-export default function BaseCard({
+export default function DownloadCard({
   children,
   href,
   className = '',
   isClickable = true,
   isExternalLink = false,
   onClick,
-}: BaseCardProps) {
+}: DownloadCardProps) {
   // 非交互式卡片
   if (!isClickable) {
     return <CardContent className={className}>{children}</CardContent>;

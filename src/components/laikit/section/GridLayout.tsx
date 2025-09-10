@@ -28,6 +28,9 @@ export const GridConfigs = {
   skills:
     '--tw-grid-cols-2 sm:--tw-grid-cols-3 md:--tw-grid-cols-4 lg:--tw-grid-cols-6',
 
+  downloads:
+    '--tw-grid-cols-1 sm:--tw-grid-cols-1 md:--tw-grid-cols-4 lg:--tw-grid-cols-6',
+
   // 项目网格：1-2-3列
   projects: '--tw-grid-cols-1 md:--tw-grid-cols-2 lg:--tw-grid-cols-3',
 
