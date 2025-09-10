@@ -18,11 +18,11 @@ const config: Config = {
     experimental_faster: true,
   },
 
-  url: 'https://lailai.one',
-  baseUrl: '/',
+  url: 'https://alisterbaroi.github.io',
+  baseUrl: '/mrs-recorda-site/',
 
-  organizationName: 'lailai0916',
-  projectName: 'lailai0916.github.io',
+  organizationName: 'alisterbaroi',
+  projectName: 'alisterbaroi.github.io',
 
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const config: Config = {
           // showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           editUrl:
-            'https://github.com/lailai0916/lailai0916.github.io/tree/main/',
+            'https://github.com/alisterbaroi/alisterbaroi.github.io/tree/main/',
 
           remarkPlugins: [
             remarkMath,
@@ -67,7 +67,7 @@ const config: Config = {
           // showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           editUrl:
-            'https://github.com/lailai0916/lailai0916.github.io/tree/main/',
+            'https://github.com/alisterbaroi/alisterbaroi.github.io/tree/main/',
 
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -145,7 +145,7 @@ const config: Config = {
         },
         { type: 'localeDropdown', position: 'right' },
         {
-          href: 'https://github.com/lailai0916/lailai0916.github.io',
+          href: 'https://github.com/alisterbaroi/alisterbaroi.github.io',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -166,13 +166,13 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            { label: 'X (Twitter)', href: 'https://x.com/lailai0x394' },
-            { label: 'Telegram', href: 'https://t.me/lailai0916' },
+            // { label: 'X (Twitter)', href: 'https://x.com/lailai0x394' },
+            // { label: 'Telegram', href: 'https://t.me/lailai0916' },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/lailai0916',
+              href: 'https://www.linkedin.com/in/alisterbaroi',
             },
-            { label: 'GitHub', href: 'https://github.com/lailai0916' },
+            { label: 'GitHub', href: 'https://github.com/alisterbaroi' },
           ],
         },
         {
